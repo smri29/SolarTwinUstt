@@ -1,7 +1,6 @@
 SolarTwin AI: Universal Spatio-Temporal Transformer (USTT)
 
-Official Research Artifact for "Context-Aware Universal Transformers: A Scale-Invariant Framework for Multi-Site Photovoltaic Forecasting" > Submitted to IEEE Transactions on Industrial Informatics (TII)
-
+Official Research Artifact for "Context-Aware Universal Transformers: A Scale-Invariant Framework for Multi-Site Photovoltaic Forecasting".
 📌 Project Overview
 
 This repository hosts the Digital Twin Dashboard and inference engine for the Universal Spatio-Temporal Transformer (USTT). This framework addresses the critical challenge of capacity imbalance in multi-site solar forecasting, allowing a single Deep Learning model to predict power generation across heterogeneous sites (e.g., 250 MW Utility Scale vs. 22 MW Residential) without re-training.
@@ -18,7 +17,7 @@ Physics-Aware Inputs: Utilizes cyclical temporal encoding ($sin(t), cos(t)$) to 
 
 🚀 Live Demo
 
-Click Here to Launch the Digital Twin Dashboard (Note: Replace this link after deploying to Streamlit Cloud)
+(https://solartwinai.streamlit.app/) Click Here to Launch the Digital Twin Dashboard 
 
 🛠️ Installation & Local Execution
 
@@ -26,8 +25,8 @@ To reproduce the results or run the digital twin locally:
 
 1. Clone the Repository
 
-git clone [https://github.com/your-username/solar-twin-ustt.git](https://github.com/your-username/solar-twin-ustt.git)
-cd solar-twin-ustt
+git clone [https://github.com/smri29/SolarTwinUstt.git](https://github.com/smri29/SolarTwinUstt.git)
+cd SolarTwinUstt
 
 
 2. Install Dependencies
@@ -74,13 +73,6 @@ Note: The model file included (ustt_model.keras) is optimized for CPU inference 
 
 If you use this code or architecture in your research, please cite the following paper:
 
-@article{SMRizvi2026USTT,
-  title={Context-Aware Universal Transformers: A Scale-Invariant Framework for Multi-Site Photovoltaic Forecasting},
-  author={Shah M. Rizvi, MAU. Siyam, Rimo Bhuiyan, Sumaiya A. Shorna},
-  journal={IEEE Transactions on Industrial Informatics},
-  year={2026},
-  note={Under Review}
-}
 
 
 📜 License
